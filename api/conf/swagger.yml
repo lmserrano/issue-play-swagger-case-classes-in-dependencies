@@ -1,0 +1,8 @@
+swagger: "2.0"
+info:
+  title: "FundWiz API"
+  description: "FundWiz Financial Data API"
+consumes:
+  - application/json
+produces:
+  - application/json
