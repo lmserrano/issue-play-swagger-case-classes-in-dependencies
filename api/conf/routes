@@ -24,16 +24,15 @@ GET     /assets/*file               controllers.Assets.versioned(path="/public",
 ###
 POST    /test0      controllers.AsyncController.message
 
-## TODO If this tis enabled, it fails
-####
-##  summary: create a card
-##  responses:
-##    200:
-##      description: success
-##      schema:
-##        $ref: '#/definitions/data.Protocol.CardCreated'
-####
-#POST    /test1      controllers.AsyncController.message
+###
+#  summary: create a card
+#  responses:
+#    200:
+#      description: success
+#      schema:
+#        $ref: '#/definitions/data.Protocol.CardCreated'
+###
+POST    /test1      controllers.AsyncController.message
 
 
 # Swagger UI will be available under: http://localhost:9000/docs/swagger-ui/index.html?url=/assets/swagger.json
